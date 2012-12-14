@@ -1,6 +1,6 @@
 <package>
   <name>test_nodelet</name>
-  <version>1.7.9</version>
+  <version>1.7.10</version>
   <description>
     A package for nodelet unit tests
   </description>
@@ -9,6 +9,8 @@
 
   <url>http://ros.org/wiki/test_nodelet</url>
   <author>Tully Foote</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>nodelet</build_depend>
   <build_depend>pluginlib</build_depend>

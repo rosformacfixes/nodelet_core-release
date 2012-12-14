@@ -1,6 +1,6 @@
 <package>
   <name>nodelet</name>
-  <version>1.7.9</version>
+  <version>1.7.10</version>
   <description>
     The nodelet package is designed to provide a way to run multiple
     algorithms in the same process with zero copy transport between
@@ -16,6 +16,8 @@
   <url>http://ros.org/wiki/nodelet</url>
   <author>Tully Foote</author>
   <author>Radu Bogdan Rusu</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>bondcpp</build_depend>
   <build_depend>boost</build_depend>
