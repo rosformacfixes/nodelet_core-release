@@ -1,6 +1,6 @@
 <package>
   <name>test_nodelet_topic_tools</name>
-  <version>1.7.13</version>
+  <version>1.7.14</version>
   <description>
     A package for nodelet_topic_tools unit tests.
   </description>
@@ -29,7 +29,6 @@
   <run_depend>std_msgs</run_depend>
 
   <test_depend>rospy</test_depend>
-  <test_depend>std_msgs</test_depend>
 
   <export>
     <nodelet plugin="${prefix}/test/test_nodelets.xml"/>
