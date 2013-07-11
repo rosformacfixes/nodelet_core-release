@@ -1,16 +1,16 @@
 <package>
   <name>test_nodelet</name>
-  <version>1.7.15</version>
+  <version>1.8.0</version>
   <description>
     A package for nodelet unit tests
   </description>
-  <maintainer email="tfoote@willowgarage.com">Tully Foote</maintainer>
+  <maintainer email="tfoote@osrfoundation.org">Tully Foote</maintainer>
   <license>BSD</license>
 
   <url>http://ros.org/wiki/test_nodelet</url>
   <author>Tully Foote</author>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend version_gte="0.5.68">catkin</buildtool_depend>
 
   <build_depend>nodelet</build_depend>
   <build_depend>pluginlib</build_depend>
