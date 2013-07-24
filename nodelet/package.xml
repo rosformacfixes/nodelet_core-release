@@ -1,6 +1,6 @@
 <package>
   <name>nodelet</name>
-  <version>1.7.16</version>
+  <version>1.7.17</version>
   <description>
     The nodelet package is designed to provide a way to run multiple
     algorithms in the same process with zero copy transport between
@@ -33,6 +33,7 @@
   <run_depend>bondcpp</run_depend>
   <run_depend>boost</run_depend>
   <run_depend>message_runtime</run_depend>
+  <run_depend>pluginlib</run_depend>
   <run_depend>rosconsole</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>std_msgs</run_depend>
