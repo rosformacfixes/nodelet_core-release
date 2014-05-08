@@ -1,6 +1,6 @@
 <package>
   <name>nodelet</name>
-  <version>1.8.2</version>
+  <version>1.8.3</version>
   <description>
     The nodelet package is designed to provide a way to run multiple
     algorithms in the same process with zero copy transport between
@@ -10,7 +10,7 @@
     implementing a nodelet, as well as the NodeletLoader class used
     for instantiating nodelets.
   </description>
-  <maintainer email="tfoote@osrfoundation.org">Tully Foote</maintainer>
+  <maintainer email="esteve@osrfoundation.org">Esteve Fernandez</maintainer>
   <license>BSD</license>
 
   <url>http://ros.org/wiki/nodelet</url>
@@ -22,7 +22,7 @@
   <build_depend>bondcpp</build_depend>
   <build_depend>boost</build_depend>
   <build_depend>message_generation</build_depend>
-  <build_depend>pluginlib</build_depend>
+  <build_depend version_gte="1.10.0">pluginlib</build_depend>
   <build_depend>rosconsole</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>rospy</build_depend>
@@ -33,7 +33,7 @@
   <run_depend>bondcpp</run_depend>
   <run_depend>boost</run_depend>
   <run_depend>message_runtime</run_depend>
-  <run_depend>pluginlib</run_depend>
+  <run_depend version_gte="1.10.0">pluginlib</run_depend>
   <run_depend>rosconsole</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>std_msgs</run_depend>
