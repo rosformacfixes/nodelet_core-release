@@ -2,11 +2,17 @@
 Changelog for package test_nodelet_topic_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.8.4 (2014-06-16)
+1.9.1 (2014-10-29)
+------------------
+
+1.9.0 (2014-06-16)
 ------------------
 
 1.8.3 (2014-05-08)
 ------------------
+* update changelogs
+* Update maintainer field
+* Contributors: Dirk Thomas, Esteve Fernandez
 
 1.8.2 (2014-01-07)
 ------------------
