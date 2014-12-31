@@ -2,17 +2,23 @@
 Changelog for package nodelet_topic_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.8.6 (2014-10-30)
+1.9.2 (2014-10-30)
 ------------------
 
-1.8.5 (2014-10-29)
+1.9.1 (2014-10-29)
 ------------------
 
-1.8.4 (2014-06-16)
+1.9.0 (2014-06-16)
 ------------------
 
 1.8.3 (2014-05-08)
 ------------------
+* update changelogs
+* Update maintainer field
+* fix missing boost dependency
+* Contributors: Dirk Thomas, Esteve Fernandez
+
+* fix missing boost dependency
 
 1.8.2 (2014-01-07)
 ------------------
