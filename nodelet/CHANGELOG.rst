@@ -2,6 +2,11 @@
 Changelog for package nodelet
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.4 (2016-03-15)
+------------------
+* update maintainer
+* Contributors: Mikael Arguedas
+
 1.9.3 (2015-08-05)
 ------------------
 * adding support for named nodelet loggers
