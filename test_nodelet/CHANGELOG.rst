@@ -2,6 +2,9 @@
 Changelog for package test_nodelet
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.5 (2016-06-22)
+------------------
+
 1.9.4 (2016-03-15)
 ------------------
 * add test dependency on rosbash
