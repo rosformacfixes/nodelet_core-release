@@ -2,6 +2,12 @@
 Changelog for package nodelet
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.7 (2016-10-24)
+------------------
+* Use rospkg instead of roslib in declared_nodelets
+  Close https://github.com/ros/nodelet_core/issues/48
+* Contributors: Kentaro Wada
+
 1.9.6 (2016-09-20)
 ------------------
 
