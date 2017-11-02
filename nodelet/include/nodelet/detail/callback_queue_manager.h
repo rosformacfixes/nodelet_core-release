@@ -84,7 +84,6 @@ private:
   struct ThreadInfo;
   void workerThread(ThreadInfo*);
 
-  class ThreadInfo;
   ThreadInfo* getSmallestQueue();
 
   struct QueueInfo
@@ -135,7 +134,7 @@ private:
       Record(double stamp, uint32_t tasks, bool threaded)
         : stamp(stamp), tasks(tasks), threaded(threaded)
       {}
-      
+
       double stamp;
       uint32_t tasks;
       bool threaded;

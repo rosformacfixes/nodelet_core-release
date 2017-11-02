@@ -2,6 +2,19 @@
 Changelog for package test_nodelet_topic_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.9.13 (2017-10-27)
+-------------------
+
+1.9.12 (2017-08-04)
+-------------------
+
+1.9.11 (2017-07-27)
+-------------------
+* remove trailing whitespaces (`#62 <https://github.com/ros/nodelet_core/issues/62>`_)
+* switch to package format 2 (`#63 <https://github.com/ros/nodelet_core/issues/63>`_)
+* Test laziness after disconnection (`#60 <https://github.com/ros/nodelet_core/issues/60>`_)
+* Contributors: Kentaro Wada, Mikael Arguedas
+
 1.9.10 (2017-03-27)
 -------------------
 
