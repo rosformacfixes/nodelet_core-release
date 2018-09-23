@@ -17,8 +17,8 @@ add_service_files(DIRECTORY srv FILES NodeletList.srv  NodeletLoad.srv  NodeletU
 generate_messages(DEPENDENCIES std_msgs)
 
 catkin_package(
-  INCLUDE_DIRS include ${UUID_INCLUDE_DIRS}
-  LIBRARIES nodeletlib ${UUID_LIBRARIES}
+  INCLUDE_DIRS include
+  LIBRARIES nodeletlib
   CATKIN_DEPENDS bondcpp message_runtime pluginlib rosconsole roscpp std_msgs
   DEPENDS Boost
 )
